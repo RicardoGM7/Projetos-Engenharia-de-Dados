@@ -1,6 +1,6 @@
 # Integração de Dados da UFS
 
-Este projeto contém um fluxo de integração ETL em Pentaho Hop para carregar dados acadêmicos da UFS a partir de arquivos CSV e persistir informações em tabelas de um data warehouse PostgreSQL.
+Este projeto contém um fluxo de integração ETL em Apache Hop para carregar dados acadêmicos da UFS a partir de arquivos CSV e persistir informações em tabelas de um data warehouse PostgreSQL.
 
 ## Objetivo
 
@@ -55,16 +55,6 @@ O processo carrega, principalmente, as seguintes tabelas:
 - dim_professor
 - dim_semestre
 - fato_turma
-
-## Requisitos
-
-Para executar o projeto, são necessários:
-
-- Pentaho Hop / Pentaho Data Integration instalado;
-- acesso a um banco PostgreSQL;
-- configuração correta das conexões "crud" e "hop" nos arquivos de metadata;
-- variável de ambiente PROJECT_HOME apontando para a pasta [integracao](integracao).
-
 
 ## Observações
 

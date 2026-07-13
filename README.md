@@ -16,7 +16,7 @@ O trabalho está organizado em três módulos:
 
 1. Parte 1 - CRUD com PostgreSQL e Java
 2. Parte 2 - CRUD com MongoDB e Java
-3. Parte 3 - Integração de dados com Pentaho Hop
+3. Parte 3 - Integração de dados com Apache Hop
 
 ## 1. CRUD com PostgreSQL e Java
 
@@ -47,9 +47,9 @@ Na pasta [CRUD_MongoDB_Parte 2](CRUD_MongoDB_Parte%202), foi desenvolvida uma ap
 - MongoDB
 - MongoDB Driver
 
-## 3. Integração de dados com Pentaho Hop
+## 3. Integração de dados com Apache Hop
 
-Na pasta [integracao_Parte 3](integracao_Parte%203), foi construído um fluxo de integração ETL utilizando Pentaho Hop para carregar dados acadêmicos a partir de arquivos CSV para um banco PostgreSQL.
+Na pasta [integracao_Parte 3](integracao_Parte%203), foi construído um fluxo de integração ETL utilizando Apache Hop para carregar dados acadêmicos a partir de arquivos CSV para um banco PostgreSQL.
 
 ### Objetivo
 - Realizar a extração, transformação e carga (ETL) de dados;
@@ -57,7 +57,7 @@ Na pasta [integracao_Parte 3](integracao_Parte%203), foi construído um fluxo de
 - Estruturar uma carga dimensional para posterior análise.
 
 ### Tecnologias
-- Pentaho Hop
+- Apache Hop
 - PostgreSQL
 - Arquivos CSV
 - Workflow e pipelines ETL
@@ -73,4 +73,4 @@ O projeto busca mostrar diferentes abordagens para o tratamento de dados em ambi
 
 - [CRUD_PostegreSQL_Parte 1](CRUD_PostegreSQL_Parte%201): aplicação CRUD com PostgreSQL.
 - [CRUD_MongoDB_Parte 2](CRUD_MongoDB_Parte%202): aplicação CRUD com MongoDB.
-- [integracao_Parte 3](integracao_Parte%203): projeto ETL com Pentaho Hop.
+- [integracao_Parte 3](integracao_Parte%203): projeto ETL com Apache Hop.
